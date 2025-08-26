@@ -1,12 +1,49 @@
-# React + Vite
+# 📚 Digital Library React  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online library application built with **React (Vite)**.  
+You can browse books, view details, and add new books to the collection.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- Responsive navigation bar with mobile menu  
+- Home page with welcome message  
+- Browse page with categories & popular books  
+- Add Book form with validation  
+- Fully responsive (desktop, tablet, mobile)  
+- Built using **React + Vite** with plain CSS (no Tailwind/Bootstrap)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Getting Started  
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/navwebg/Digital-Library-React.git
+cd Digital-Library-React
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the app in development mode
+```bash
+npm run dev
+```
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+src/
+```bash
+ ┣ components/
+ ┃ ┗ Navbar.jsx       # Responsive navigation bar
+ ┣ App.jsx            # Main app logic (home, browse, add)
+ ┣ index.css          # Styles
+ ┣ main.jsx           # Entry point
+```
